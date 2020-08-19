@@ -1,7 +1,6 @@
 package com.hmy.example.api
 
 import com.google.gson.JsonObject
-import com.hmy.example.bean.ApiInfo
 import io.reactivex.Flowable
 import retrofit2.http.GET
 

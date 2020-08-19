@@ -6,7 +6,7 @@ import android.util.Log
  * Created by hmy on 2017/9/19.
  */
 object LogUtil {
-    var TAG = "TestProject"
+    const val TAG = "TestProject"
     fun v(vararg messages: Any?) {
         log(Log.VERBOSE, null, *messages)
     }

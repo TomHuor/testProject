@@ -72,7 +72,7 @@ class MainActivity : BaseActivity() {
             .subscribeOn(Schedulers.io())
             .subscribe(Consumer {
                 //请求最新数据
-                ApiManager.getApiJson()
+                ApiManager.getApiData()
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(Consumer {

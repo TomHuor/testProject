@@ -35,6 +35,10 @@ public class ApiInfo {
         this.id = id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public long getTime() {
         return this.time;
     }
@@ -53,14 +57,10 @@ public class ApiInfo {
 
     @Override
     public String toString() {
-        return "ApiInfo{" +
+        return "{" +
                 "id=" + id +
                 ", time=" + time +
                 ", data='" + data + '\'' +
                 '}';
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 }
